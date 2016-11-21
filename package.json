@@ -5,8 +5,12 @@
   "main": "site/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "aws s3 cp ./site/index.html s3://donvince.com/exchange/ --acl public-read"
+    "upload": "aws s3 cp ./site/index.html s3://donvince.com/exchange/ --acl public-read",
+    "setup": "copy .\\node_modules\\money\\money.js .\\site\\"
   },
   "author": "Don Vince",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "money": "^0.2.0"
+  }
 }
