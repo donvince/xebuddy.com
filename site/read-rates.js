@@ -4,6 +4,7 @@
 
     $.getJSON("http://api.fixer.io/latest", function (data) {
         fx.rates = data.rates;
+        console.log(data);
 
         var tableBody = $("#data");
         tableBody.empty();
@@ -12,5 +13,7 @@
             var to = fx(from[i]).from("HUF").to("GBP").toFixed(2);
             tableBody.append("<tr><td><h2>" + from[i] + "</h2></td><td><h2>" + to + "</h2></td></tr>");
         }
+
+        $("#updated").text(data.date);
     });
 }());
