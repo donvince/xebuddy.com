@@ -1,0 +1,12 @@
+{
+  "name": "spendingmoney",
+  "version": "1.0.0",
+  "description": "Currency conversion table",
+  "main": "site/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "aws s3 cp ./site/index.html s3://donvince.com/exchange/ --acl public-read"
+  },
+  "author": "Don Vince",
+  "license": "ISC"
+}
