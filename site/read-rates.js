@@ -11,7 +11,7 @@
 
         for(var i = 0; i < from.length; i++) {
             var to = fx(from[i]).from(leftCurrency).to(rightCurrency).toFixed(2);
-            tableBody.append("<tr><td><h2>" + from[i] + "</h2></td><td><h2>" + to + "</h2></td></tr>");
+            tableBody.append("<tr><td>" + from[i] + "</td><td>" + to + "</td></tr>");
         }
     };
 
@@ -43,6 +43,6 @@
         updateTable();
         updateDropdowns();
         
-        $("#updated").text(data.date);
+        $("#updated").text("Last updated: " + data.date);
     });
 }());
