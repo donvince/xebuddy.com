@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "upload": "aws s3 cp ./site/ s3://donvince.com/exchange/ --acl public-read --recursive",
-    "setup": "copy .\\node_modules\\money\\money.js .\\site\\"
+    "setup": "copy .\\node_modules\\money\\money.js .\\site\\ & copy .\\node_modules\\numeral\\min\\* .\\site\\"
   },
   "author": "Don Vince",
   "license": "ISC",
   "dependencies": {
-    "money": "^0.2.0"
+    "money": "^0.2.0",
+    "numeral": "^1.5.5"
   },
   "devDependencies": {
     "eslint": "^3.10.2",
