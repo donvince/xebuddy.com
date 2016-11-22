@@ -15,6 +15,14 @@
         }
     };
 
+    var updateDropdowns = function(){
+        var ul = $("<ul />");
+        for(var rate in fx.rates) {
+            ul.append('<li><a href="#">' + rate + '</a></li>')
+        }
+        $("#left,#right").empty().append(ul.contents().clone());
+    };
+
     $("#left,#right").click(function (e) {
         e.preventDefault();
 
@@ -33,6 +41,7 @@
         fx.rates = data.rates;
         fx.base = data.base;
         updateTable();
+        updateDropdowns();
         
         $("#updated").text(data.date);
     });
