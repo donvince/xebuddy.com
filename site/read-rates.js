@@ -28,7 +28,9 @@
 
         var column = $(this).attr("id");
         var currency = e.target.outerText;
-        var headerId = "#" + column + "Selected";
+        var selectedId = "#" + column + "Selected";
+        var headerId = "#" + column + "Header";
+        $(selectedId).text(currency);
         $(headerId).text(currency);
         
         updateTable();

@@ -13,35 +13,43 @@
     <div class="container">
         <div class="jumbotron">
             <h1>Currency Converter</h1>
-            <div id="updated">~2016-11-21</div>
+            <div id="updated">Last updated: ~2016-11-21</div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                        <h2 id="leftSelected">HUF</h2>
+                        <span class="caret"></span>
+                    </button>
+                        <ul class="dropdown-menu" id="left">
+                            <li><a href="#">EUR</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                        <h2 id="rightSelected">GBP</h2>
+                        <span class="caret"></span>
+                    </button>
+                        <ul class="dropdown-menu" id="right">
+                            <li><a href="#">EUR</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-6">
+        <div class="row">
             <table class="table table-condensed text-right">
                 <thead>
                     <tr>
-                        <th>
-                            <div class="dropdown pull-right">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                                    <h1 id="leftSelected">HUF</h1>
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" id="left">
-                                    <li><a href="#">EUR</a></li>
-                                    <li><a href="#">USD</a></li>
-                                </ul>
-                            </div>
+                        <th class="text-right" id="leftHeader">
+                            HUF
                         </th>
-                        <th>
-                            <div class="dropdown pull-right">
-                                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                                    <h1 id="rightSelected">GBP</h1>
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" id="right">
-                                    <li><a href="#">EUR</a></li>
-                                    <li><a href="#">USD</a></li>
-                                </ul>
-                            </div>
+                        <th class="text-right" id="rightHeader">
+                            GBP
                         </th>
                     </tr>
                 </thead>
