@@ -1,6 +1,23 @@
 "use strict";
 (function () {
-    var from = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000];
+    var defaultCurrencySettings = {
+        "format": "0,0.00",
+        "language": "en-gb",
+        "denominations": [
+            0.1,
+            0.2,
+            0.5,
+            0.10,
+            0.20,
+            0.50,
+            1,
+            2,
+            5,
+            10,
+            20,
+            50
+        ]
+    };
 
     var currencyIndex = [
         {
@@ -45,30 +62,30 @@
         }
     ];
 
-    var updateTable = function (){
+    var updateTable = function () {
         var tableBody = $("#data");
         tableBody.empty();
 
         var leftCurrency = $("#leftSelected").text();
         var rightCurrency = $("#rightSelected").text();
 
-        var leftCurrencySettings;
-        var rightCurrencySettings;
+        var leftCurrencySettings = defaultCurrencySettings;
+        var rightCurrencySettings = defaultCurrencySettings;
 
-        for(var currency of currencyIndex) {
-            if(currency.currency === leftCurrency) {
+        for (var currency of currencyIndex) {
+            if (currency.currency === leftCurrency) {
                 leftCurrencySettings = currency;
             }
-            if(currency.currency === rightCurrency) {
+            if (currency.currency === rightCurrency) {
                 rightCurrencySettings = currency;
             }
         }
 
-        for(var i = 0; i < from.length; i++) {
-            var to = fx(from[i]).from(leftCurrency).to(rightCurrency).toFixed(2);
+        for (var i = 0; i < leftCurrencySettings.denominations.length; i++) {
+            var to = fx(leftCurrencySettings.denominations[i]).from(leftCurrency).to(rightCurrency).toFixed(2);
 
             numeral.language(leftCurrencySettings.language);
-            var fromFormatted = numeral(from[i]).format(leftCurrencySettings.format);
+            var fromFormatted = numeral(leftCurrencySettings.denominations[i]).format(leftCurrencySettings.format);
 
             numeral.language(rightCurrencySettings.language);
             var toFormatted = numeral(to).format(rightCurrencySettings.format);
@@ -77,9 +94,9 @@
         }
     };
 
-    var updateDropdowns = function(){
+    var updateDropdowns = function () {
         var ul = $("<ul />");
-        for(var rate in fx.rates) {
+        for (var rate in fx.rates) {
             ul.append('<li><a href="#">' + rate + '</a></li>')
         }
         $("#left,#right").empty().append(ul.contents().clone());
@@ -94,7 +111,7 @@
         var headerId = "#" + column + "Header";
         $(selectedId).text(currency);
         $(headerId).text(currency);
-        
+
         updateTable();
     });
 
@@ -106,7 +123,7 @@
         fx.base = data.base;
         updateTable();
         updateDropdowns();
-        
+
         $("#updated").text("Last updated: " + data.date);
     });
-}());
+} ());
