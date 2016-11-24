@@ -207,7 +207,7 @@
         e.preventDefault();
 
         var column = $(this).attr("id");
-        var currency = e.target.outerText;
+        var currency = e.target.text;
         var selectedId = "#" + column + "Selected";
         var headerId = "#" + column + "Header";
         $(selectedId).text(currency);
