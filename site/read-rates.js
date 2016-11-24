@@ -63,6 +63,99 @@
             ]
         },
         {
+            "currency": "BRL",
+            "name": "Brazilian Real",
+            "format": "$0,0.00",
+            "language": "pt-br",
+            "denominations": [
+                0.05,
+                0.10,
+                0.25,
+                0.50,
+                1,
+                5,
+                10,
+                20,
+                50,
+                100,
+            ]
+        },
+        {
+            "currency": "CAD",
+            "name": "Canadian Dollar",
+            "format": "$0,0.00",
+            "language": "fr-CA",
+            "denominations": [
+                0.05,
+                0.10,
+                0.25,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100
+            ]
+        },
+        {
+            "currency": "CHF",
+            "name": "Swiss Franc",
+            "format": "$0,0.00",
+            "language": "de-ch",
+            "denominations": [
+                0.05,
+                0.10,
+                0.20,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                1000
+            ]
+        },
+        {
+            "currency": "CNY",
+            "name": "Chinese Yuan Renminbi",
+            "format": "$0,0.0",
+            "language": "chs",
+            "denominations": [
+                0.1,
+                0.5,
+                1,
+                5,
+                10,
+                20,
+                50,
+                100
+            ]
+        },
+        {
+            "currency": "CZK",
+            "name": "",
+            "format": "0,0$",
+            "language": "cs",
+            "denominations": [
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                500,
+                1000,
+                2000,
+                5000
+            ]
+        },
+        {
             "currency": "GBP",
             "name": "British Pound",
             "format": "$0,0.00",
@@ -101,64 +194,33 @@
                 10000,
                 20000
             ]
-        },
+        }
 
-        // //template
-        // {
-        //     "currency": "",
-        //     "name": "",
-        //     "format": "0,0$",
-        //     "language": "",
-        //     "denominations": [
-        //         5,
-        //         10,
-        //         20,
-        //         50,
-        //         100,
-        //         200,
-        //         500,
-        //         1000,
-        //         2000,
-        //         5000,
-        //         10000,
-        //         20000
-        //     ]
-        // },
-
-
-
-
-        // "": 1.4352,
-        // "BGN": 1.9558,
-        // "BRL": 3.5497,
-        // "CAD": 1.423,
-        // "CHF": 1.073,
-        // "CNY": 7.31,
-        // "CZK": 27.044,
-        // "DKK": 7.4399,
-        // "GBP": 0.85423,
-        // "HKD": 8.2341,
-        // "HRK": 7.53,
-        // "HUF": 308.89,
-        // "IDR": 14254.41,
-        // "ILS": 4.1041,
-        // "INR": 72.509,
-        // "JPY": 117.74,
-        // "KRW": 1246.9,
-        // "MXN": 21.5845,
-        // "MYR": 4.6938,
-        // "NOK": 9.0563,
-        // "NZD": 1.5033,
-        // "PHP": 52.878,
-        // "PLN": 4.4205,
-        // "RON": 4.5117,
-        // "RUB": 67.96,
-        // "SEK": 9.7973,
-        // "SGD": 1.5126,
-        // "THB": 37.653,
-        // "TRY": 3.5717,
-        // "USD": 1.0617,
-        // "ZAR": 14.9242
+        // TODO:
+        // "DKK"
+        // "GBP"
+        // "HKD"
+        // "HRK"
+        // "HUF"
+        // "IDR"
+        // "ILS"
+        // "INR"
+        // "JPY"
+        // "KRW"
+        // "MXN"
+        // "MYR"
+        // "NOK"
+        // "NZD"
+        // "PHP"
+        // "PLN"
+        // "RON"
+        // "RUB"
+        // "SEK"
+        // "SGD"
+        // "THB"
+        // "TRY"
+        // "USD"
+        // "ZAR"
 
 
     ];
