@@ -156,6 +156,25 @@
             ]
         },
         {
+            "currency": "DKK",
+            "name": "Danish Krone",
+            "format": "$0,0.00",
+            "language": "da-dk",
+            "denominations": [
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                500,
+                1000
+            ]
+        },
+        {
             "currency": "GBP",
             "name": "British Pound",
             "format": "$0,0.00",
@@ -197,8 +216,6 @@
         }
 
         // TODO:
-        // "DKK"
-        // "GBP"
         // "HKD"
         // "HRK"
         // "HUF"
