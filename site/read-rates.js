@@ -196,6 +196,27 @@
             ]
         },
         {
+            "currency": "HRK",
+            "name": "Croatian Kuna",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.05,
+                0.10,
+                0.20,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                500
+            ]
+        },
+        {
             "currency": "GBP",
             "name": "British Pound",
             "format": "$0,0.00",
@@ -237,7 +258,6 @@
         }
 
         // TODO:
-        // "HKD"
         // "HRK"
         // "HUF"
         // "IDR"
