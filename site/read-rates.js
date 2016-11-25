@@ -175,6 +175,27 @@
             ]
         },
         {
+            "currency": "HKD",
+            "name": "Hong Kong Dollar",
+            "format": "0,0.0",
+            "language": "chs",
+            "denominations": [
+                0.1,
+                0.2,
+                0.5,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                150,
+                500,
+                1000
+            ]
+        },
+        {
             "currency": "GBP",
             "name": "British Pound",
             "format": "$0,0.00",
