@@ -258,8 +258,6 @@
         }
 
         // TODO:
-        // "HRK"
-        // "HUF"
         // "IDR"
         // "ILS"
         // "INR"
