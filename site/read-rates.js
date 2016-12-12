@@ -415,12 +415,27 @@
                 50,
                 100
             ]
+        },
+        {
+            "currency": "PHP",
+            "name": "Philippine Peso",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.25,
+                1,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                500,
+                1000
+            ]
         }
 
         // TODO:
-        // ""
-        // ""
-        // "PHP"
         // "PLN"
         // "RON"
         // "RUB"
