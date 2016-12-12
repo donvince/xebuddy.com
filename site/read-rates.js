@@ -455,11 +455,25 @@
                 100,
                 200
             ]
+        },
+        {
+            "currency": "RON",
+            "name": "Romanian Leu",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.10,
+                0.50,
+                1,
+                5,
+                10,
+                50,
+                100
+            ]
         }
-
         // TODO:
         // ""
-        // "RON"
+        // ""
         // "RUB"
         // "SEK"
         // "SGD"
