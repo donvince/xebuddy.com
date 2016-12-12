@@ -174,6 +174,7 @@
                 1000
             ]
         },
+        //TODO: EUR
         {
             "currency": "GBP",
             "name": "British Pound",
