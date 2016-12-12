@@ -470,7 +470,27 @@
                 50,
                 100
             ]
+        },
+        {
+            "currency": "RUB",
+            "name": "Russian Ruble",
+            "format": "0,0.00 $",
+            "language": "ru",
+            "denominations": [
+                0.10,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                50,
+                100,
+                500,
+                1000,
+                5000
+            ]
         }
+
         // TODO:
         // ""
         // ""
