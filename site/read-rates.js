@@ -291,12 +291,28 @@
                 100,
                 200
             ]
+        },
+        {
+            "currency": "INR",
+            "name": "Indian Rupee",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.5,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                500,
+                1000
+            ]
         }
 
         // TODO:
         // ""
-        // "ILS"
-        // "INR"
         // "JPY"
         // "KRW"
         // "MXN"
