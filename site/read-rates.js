@@ -537,11 +537,29 @@
                 500,
                 1000
             ]
+        },
+        {
+            "currency": "TRY",
+            "name": "Turkish Lira",
+            "format": "$0,0.00",
+            "language": "tr",
+            "denominations": [
+                0.05,
+                0.10,
+                0.25,
+                0.50,
+                1,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200
+            ]
         }
 
-
         // TODO:
-        // "TRY"
+        // ""
         // "USD"
         // "ZAR"
 
