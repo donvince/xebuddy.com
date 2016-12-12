@@ -363,11 +363,27 @@
                 500,
                 1000
             ]
-        }        
-
+        },
+        {
+            "currency": "MYR",
+            "name": "Malaysian Ringgit",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.05,
+                0.10,
+                0.20,
+                0.50,
+                1,
+                5,
+                10,
+                50,
+                100,
+            ]
+        }
         // TODO:
         // ""
-        // "MYR"
+        // ""
         // "NOK"
         // "NZD"
         // "PHP"
