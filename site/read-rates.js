@@ -344,10 +344,29 @@
                 10000,
                 50000
             ]
-        }
+        },
+        {
+            "currency": "MXN",
+            "name": "Mexican Peso",
+            "format": "$0,0.00",
+            "language": "es",
+            "denominations": [
+                0.5,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200,
+                500,
+                1000
+            ]
+        }        
 
         // TODO:
-        // "MXN"
+        // ""
         // "MYR"
         // "NOK"
         // "NZD"
