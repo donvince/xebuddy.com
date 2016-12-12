@@ -505,10 +505,29 @@
                 200,
                 500
             ]
+        },
+        {
+            "currency": "SGD",
+            "name": "Singapore Dollar",
+            "format": "$0,0.00",
+            "language": "en",
+            "denominations": [
+                0.05,
+                0.10,
+                0.20,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                50,
+                100,
+                1000
+            ]
         }
+
+
         // TODO:
-        // ""
-        // "SGD"
         // "THB"
         // "TRY"
         // "USD"
