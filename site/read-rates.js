@@ -556,11 +556,26 @@
                 100,
                 200
             ]
+        },
+        {
+            "currency": "USD",
+            "name": "US Dollar",
+            "format": "$0,0.00",
+            "language": "en",
+            "denominations": [
+                0.01,
+                0.05,
+                0.10,
+                0.25,
+                1,
+                5,
+                10,
+                20,
+                50,
+                100
+            ]
         }
-
         // TODO:
-        // ""
-        // "USD"
         // "ZAR"
 
 
