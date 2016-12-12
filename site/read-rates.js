@@ -273,6 +273,24 @@
                 50000,
                 100000
             ]
+        },
+        {
+            "currency": "ILS",
+            "name": "Israeli Shekel",
+            "format": "0,0.00",
+            "language": "en",
+            "denominations": [
+                0.1,
+                0.5,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200
+            ]
         }
 
         // TODO:
