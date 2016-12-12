@@ -175,6 +175,26 @@
             ]
         },
         {
+            "currency": "GBP",
+            "name": "British Pound",
+            "format": "$0,0.00",
+            "language": "en-gb",
+            "denominations": [
+                0.01,
+                0.02,
+                0.05,
+                0.10,
+                0.20,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50
+            ]
+        },
+        {
             "currency": "HKD",
             "name": "Hong Kong Dollar",
             "format": "0,0.0",
@@ -214,26 +234,6 @@
                 100,
                 200,
                 500
-            ]
-        },
-        {
-            "currency": "GBP",
-            "name": "British Pound",
-            "format": "$0,0.00",
-            "language": "en-gb",
-            "denominations": [
-                0.01,
-                0.02,
-                0.05,
-                0.10,
-                0.20,
-                0.50,
-                1,
-                2,
-                5,
-                10,
-                20,
-                50
             ]
         },
         {
