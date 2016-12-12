@@ -397,12 +397,29 @@
                 500,
                 1000
             ]
+        },
+        {
+            "currency": "NZD",
+            "name": "New Zealand Dollar",
+            "format": "$0,0.00",
+            "language": "en",
+            "denominations": [
+                0.10,
+                0.20,
+                0.50,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100
+            ]
         }
-
 
         // TODO:
         // ""
-        // "NZD"
+        // ""
         // "PHP"
         // "PLN"
         // "RON"
