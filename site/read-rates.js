@@ -309,11 +309,28 @@
                 500,
                 1000
             ]
+        },
+        {
+            "currency": "JPY",
+            "name": "Japanese Yen",
+            "format": "$0,0",
+            "language": "ja",
+            "denominations": [
+                1,
+                5,
+                10,
+                50,
+                100,
+                500,
+                1000,
+                5000,
+                10000
+            ]
         }
 
         // TODO:
         // ""
-        // "JPY"
+        // ""
         // "KRW"
         // "MXN"
         // "MYR"
