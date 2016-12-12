@@ -574,11 +574,26 @@
                 50,
                 100
             ]
+        },
+        {
+            "currency": "ZAR",
+            "name": "South African Rand",
+            "format": "$0,0.00",
+            "language": "en-za",
+            "denominations": [
+                0.05,
+                0.10,
+                0.20,
+                1,
+                2,
+                5,
+                10,
+                20,
+                50,
+                100,
+                200
+            ]
         }
-        // TODO:
-        // "ZAR"
-
-
     ];
 
     var updateTable = function () {
