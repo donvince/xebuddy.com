@@ -524,11 +524,23 @@
                 100,
                 1000
             ]
+        },
+        {
+            "currency": "THB",
+            "name": "Thai Baht",
+            "format": "$0,0.00",
+            "language": "th",
+            "denominations": [
+                20,
+                50,
+                100,
+                500,
+                1000
+            ]
         }
 
 
         // TODO:
-        // "THB"
         // "TRY"
         // "USD"
         // "ZAR"
