@@ -5,7 +5,7 @@
   "main": "site/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "aws s3 cp ./site/ s3://donvince.com/exchange/ --acl public-read --recursive",
+    "upload": "aws s3 cp ./site/ s3://xebuddy.com/ --acl public-read --recursive",
     "setup": "copy .\\node_modules\\money\\money.js .\\site\\ & copy .\\node_modules\\numeral\\min\\* .\\site\\"
   },
   "author": "Don Vince",
