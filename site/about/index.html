@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, initial-scale=1">
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <title>Spending Money - About</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <a href="/" class="btn btn-info btn-lg">
+                <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+            <h1>About Currency Converter</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Welcome!</h2>
+                <p>Hi! I'm Don, I made this site, thanks for visiting ☺</p>
+                <p>
+                    Whenever I travel abroad, I typically create for myself a table of numbers featuring my home currency on one side and the
+                    local currency on the other. This helps me not get too confused when I'm buying things. Here's what it
+                    looks like:
+                    <img src="handwritten-table.jpeg" alt="A handwritten table of values with GBP on the left and HUF on the right" class="img-rounded img-responsive center-block">
+                </p>
+                <p>
+                    I figured that as a geek, I could make a website that created the same table and then it'd not only help me, it could help
+                    you too.
+                </p>
+                <h2>Technical Details</h2>
+                <p>
+                    To create this site I used:
+                    <ul>
+                        <li>The <a href="http://fixer.io/">Fixer.io</a> API to retrieve up to date foreign exchange rates</li>
+                        <li><a href="http://openexchangerates.github.io/money.js/">Money.js</a> to perform the conversion calculations</li>
+                        <li><a href="http://numeraljs.com/">Numeral.js</a> to format the values and select the currency symbols, 
+                            to add currencies for this site, I actually <a href="https://github.com/adamwdraper/Numeral-js/commits?author=donvince">contributed</a> to this project a little too</li>
+                        <li><a href="http://getbootstrap.com/">Bootstrap 3</a> to layout the pages</li>
+                        <li><a href="https://jquery.com/">jQuery</a> to update the table with the currencies you selected</li>
+                        <li><a href="https://github.com/donvince/xebuddy.com">GitHub</a> to look after the version history</li>
+                        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a> to manually craft the html pages</li>
+                        <li><a href="http://www.getpaint.net/index.html">Paint.NET</a> to create the logo</li>
+                        <li><a href="https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=2&name=My%20Color%20Theme&mode=rgb&rgbvalues=1,0.8714251032884249,0.050000000000000044,0.91,0.5412905704922788,0.17965355586009282,1,0,0,0.5810097237633581,0.04550000000000004,0.91,0.050000000000000044,0.3310185152508097,1&swatchOrder=0,1,2,3,4">Adobe Online Color Wheel</a> to select complementary colours for the logo</li>
+                        <li><a href="https://www.npmjs.com/">npm</a> to download packages and store my aws upload script. For a laugh, look at the banner on their page, it has alternate expansions for what npm might stand for</li>
+                        <li>and <a href="https://aws.amazon.com/">AWS</a> (specifically S3 and Route 53) to host the site</li>
+                    </ul>                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="numeral.min.js"></script>
+    <script src="languages.min.js"></script>
+    <script type="text/javascript" src="money.js"></script>
+    <script type="text/javascript" src="read-rates.js"></script>
+
+</body>
+
+</html>
